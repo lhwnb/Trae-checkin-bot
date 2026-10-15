@@ -1,0 +1,18 @@
+{
+  "schedule_mode": "interval",
+  "interval_hours": 24,
+  "daily_time": "09:00",
+  "run_immediately_on_start": true,
+  "window_keywords": ["Trae", "Agent"],
+  "process_keywords": ["trae"],
+  "restore_minimized_state": true,
+  "confidence": 0.85,
+  "grayscale": false,
+  "popup_wait_seconds": 1.5,
+  "result_wait_seconds": 2.5,
+  "retry_delay_minutes": 30,
+  "max_retries_per_cycle": 3,
+  "account_offset": { "x": 110, "y": -38 },
+  "match_scales": [0.8, 1.0, 1.25, 1.5],
+  "random_delay_range": [0.4, 1.2]
+}
